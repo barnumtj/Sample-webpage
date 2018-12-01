@@ -1,0 +1,96 @@
+.navbar {
+    background-color: white;
+    margin-bottom: 0px;
+    height: 7rem;
+    border-top: 5px solid blue;
+    border-top-color: #2A80BC;
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+
+.navbar-toggle {
+    border: 0px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: white;
+}
+#navbarLogo {
+    height: 50px;
+    width: 52%;
+    padding-top: 15px;
+    padding-left: 12px;
+}
+
+.jumbotron {
+    padding: 0px;
+}
+
+#jumboImg {
+    height: 7rem;
+    width: 100%
+}
+
+h1 {
+    margin: 2px 5px 2px 2rem;
+    padding-bottom: 10px;
+}
+
+article {
+    margin: 2px 5px 2px 2rem;
+    line-height: 2;
+}
+
+h2 {
+    margin: 3rem 5px 3rem 2rem;
+    color: #447DA5;
+
+}
+
+#linkList {
+    margin-left: -2rem;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: 	#F1F1F1;
+    
+}
+
+hr {
+    border-top: 1px solid #DDDDDD
+}
+.card {
+    margin-top: 4vw;
+}
+
+.cardImages {
+    width: 90vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-body {
+    width: 90vw;
+    display: block;
+    margin: 0 auto;
+}
+
+h3 {
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 18vw;
+    color: white;
+    height: 18vw;
+}
+
+#footerImg {
+    width: 100%;
+}
