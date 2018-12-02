@@ -86,7 +86,7 @@ hr {
     margin: 0 auto;
 }
 
-h3 {
+.card-text {
     width: 335px;
     margin: 0 auto;
     text-align: center;
@@ -194,18 +194,17 @@ footer {
     }
     .card {
       display: inline-block;
-      width: 32%;
+      width: 32.9%;
     }
     .cardImages {
-        width: 210px;
+        width: 221px;
         
     }
     .card-body {
-        width: 210px;
+        width: 221px;
     }
-    h3 {
+    .card-text {
         width: 210px;
-        height: auto;
-        line-height: 33px;
+        height: 62px;
     }
 }
