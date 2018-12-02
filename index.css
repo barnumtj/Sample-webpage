@@ -158,4 +158,17 @@ footer {
         height: 168px;
         width: 100%;
       } 
+    #articleDiv {
+        float: right;
+        width: 70%;
+        padding-top: 12px;
+        }
+    #linkList {
+        width: 30%;
+        margin-left: 0px;
+        margin-top: 0;
+        padding-top: 41px;
+        padding-bottom: 0;
+        background-color: white;
+    }
 }
