@@ -207,4 +207,33 @@ footer {
         width: 210px;
         height: 62px;
     }
+
+    #footerImg {
+        width: 18%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        float: left;
+        margin-left: 150px;
+    }
+
+    #footerContent {
+        padding-top: 25px;
+        margin-top: 10px;
+    }
+
+    .footerTxt {
+        float: left;
+        font-size: 14px;
+    }
+
+
+    #infoDiv {
+        display: inline-block;
+        width: 50%;
+        margin-left: 28px;
+        line-height: 15px;
+        margin-top: 11px;
+    }
 }
