@@ -193,15 +193,19 @@ footer {
     
     }
     .card {
-      
+      display: inline-block;
+      width: 32%;
     }
     .cardImages {
-     
+        width: 210px;
+        
     }
     .card-body {
-    
+        width: 210px;
     }
     h3 {
-    
+        width: 210px;
+        height: auto;
+        line-height: 33px;
     }
 }
