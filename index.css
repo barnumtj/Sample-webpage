@@ -93,6 +93,7 @@ h3 {
 footer {
     background-color: 	#343530;
     margin-top: 45px;
+
 }
 
 #footerImg {
@@ -106,6 +107,7 @@ footer {
 .footerTxt {
     color: white;
     text-align: center;
+    font-size: 11px;
 }
 
 #footerBtn {
@@ -116,10 +118,13 @@ footer {
     border: 0px;
     height: 46px;
     width: 82%;
+    font-size: 18px;
+    letter-spacing: 2px;
 }
 
 #buttonDiv {
     padding-bottom: 25px;
+    padding-top: 12px;
 }
 
 #footerDiv {
@@ -130,5 +135,6 @@ footer {
     margin: 0 auto;
     text-align: center;
     vertical-align: middle;
+    font-style: italic;
 
 }
