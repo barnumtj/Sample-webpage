@@ -69,20 +69,19 @@ hr {
     border-top: 1px solid #DDDDDD
 }
 .card {
-    margin-top: 4vw;
     width: 90%;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .cardImages {
-    width: 90vw;
+    width: 335px;
     display: block;
     margin: 0 auto;
 }
 
 .card-body {
-    width: 90vw;
+    width: 335px;
     display: block;
     margin: 0 auto;
 }
@@ -98,7 +97,7 @@ h3 {
 }
 footer {
     background-color: 	#343530;
-    margin-top: 45px;
+    margin-top: 54px;
 
 }
 
