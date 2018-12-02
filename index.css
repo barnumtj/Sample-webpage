@@ -70,6 +70,9 @@ hr {
 }
 .card {
     margin-top: 4vw;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
 }
 
 .cardImages {
@@ -162,13 +165,44 @@ footer {
         float: right;
         width: 70%;
         padding-top: 12px;
+        padding-bottom: 40px;
         }
+    article {
+        line-height: 1.5
+    }
+    h2 {
+        margin: 2rem 5px 2rem 2rem;
+        color: #447DA5;
+    }
     #linkList {
         width: 30%;
-        margin-left: 0px;
+        margin-left: -15px;
         margin-top: 0;
         padding-top: 41px;
         padding-bottom: 0;
         background-color: white;
+    }
+    hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #contentDiv {
+        overflow: auto;
+    }
+    #cardDiv{
+    
+    }
+    .card {
+      
+    }
+    .cardImages {
+     
+    }
+    .card-body {
+    
+    }
+    h3 {
+        
     }
 }
