@@ -90,7 +90,24 @@ h3 {
     color: white;
     height: 18vw;
 }
+footer {
+    background-color: 	#343530;
+    margin-top: 30px;
+}
 
 #footerImg {
     width: 100%;
+}
+
+.footerTxt {
+    color: white;
+    text-align: center;
+}
+
+#footerBtn {
+    background-color: #7EBB5C;
+    color: white;
+    display: block; 
+    margin: 0 auto;
+    border: 0px;
 }
