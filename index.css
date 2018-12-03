@@ -172,7 +172,22 @@ a {
 
     #navbarLogo {
         padding-left: 0;
+        height: 62px;
+        width: 39%;
+    
     }
+
+    .nav>li {
+        position: relative;
+        display: block;
+        margin-left: 45px;
+    }
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        font-size: 15px;
+    }
+
     #jumboImg {      
         content:url("./images/jumboTablet.png");
         height: 168px;
@@ -207,9 +222,7 @@ a {
     #contentDiv {
         overflow: auto;
     }
-    #cardDiv{
-    
-    }
+   
     .card {
       display: inline-block;
       width: 32.9%;
@@ -224,6 +237,7 @@ a {
     .card-text {
         width: 210px;
         height: 62px;
+        font-size: 17px;
     }
 
     #footerImg {
