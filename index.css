@@ -2,7 +2,7 @@
     background-color: white;
     margin-bottom: 0px;
     height: 7rem;
-    border-top: 5px solid blue;
+    border-top: 9px solid;
     border-top-color: #2A80BC;
 }
 
@@ -70,6 +70,10 @@ h2 {
     padding-bottom: 3rem;
     background-color: 	#F1F1F1;
     
+}
+
+li {
+    list-style-type: none;
 }
 
 hr {
@@ -273,4 +277,72 @@ a {
         line-height: 18px;
         margin-top: 11px;
     }
+}
+
+@media only screen and (min-width: 1170px) {
+
+    .container-fluid {
+        max-width: 100%;
+    }
+    .navbar {
+        height: 100px;
+    }
+    .navbar-nav {
+        float: right;
+        position: relative;
+        top: 23px;
+    }
+    #navbarLogo {
+        position: absolute;
+        width: 178px;
+        left: 100px;
+        top: 10px;
+    }
+    #jumboImg {
+        height: 228px;
+    }
+
+    #linkList {
+        margin-left: 100px;
+        padding-top: 29px;
+    }
+
+    hr {
+        width: 164px;
+        margin-top: 8.5px;
+        margin-bottom: 10px;
+    }
+    a {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+    h2 {
+        margin: 4rem 5px 2rem 2rem;
+    }
+
+    .cardImages {
+        width: 300px;
+        height: 257px;
+    }
+
+    .card-body {
+        width: 300px;
+        position: relative;
+        top: -62px;
+        opacity: .9
+    }
+
+    #cardDiv {
+        width: 1000px;
+        margin: 0 auto;
+        height: 315px;
+    }
+
+    /* .image1 {
+        margin-left: 84px;
+    }
+    
+    .image3 {
+        margin-left: -15px;
+    } */
 }
