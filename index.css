@@ -124,7 +124,7 @@ footer {
 .footerTxt {
     color: white;
     text-align: center;
-    font-size: 11px;
+    font-size: 99%;
 }
 
 #footerBtn {
@@ -133,14 +133,14 @@ footer {
     display: block; 
     margin: 0 auto;
     border: 0px;
-    height: 46px;
+    height: 60px;
     width: 82%;
     font-size: 99%;
     letter-spacing: 2px;
 }
 
 #buttonDiv {
-    padding-bottom: 25px;
+    padding-bottom: 40px;
     padding-top: 12px;
 }
 
