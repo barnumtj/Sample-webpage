@@ -43,16 +43,23 @@
 h1 {
     margin: 2px 5px 2px 2rem;
     padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 article {
     margin: 2px 5px 2px 2rem;
     line-height: 2;
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; 
 }
 
 h2 {
     margin: 3rem 5px 3rem 2rem;
-    color: #447DA5;
+    color: #4585A9;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
 
 }
 
@@ -94,6 +101,7 @@ hr {
     line-height: 65px;
     color: white;
     height: 65px;
+    font-size: 22px;
 }
 footer {
     background-color: 	#343530;
@@ -144,12 +152,22 @@ footer {
 
 }
 
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
 @media only screen and (min-width: 768px) {
     .container-fluid {
         padding-right: 0px;
         padding-left: 0;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    a {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
     }
 
     #navbarLogo {
@@ -182,7 +200,7 @@ footer {
         background-color: white;
     }
     hr {
-        margin-top: 10px;
+        margin-top: 10.5px;
         margin-bottom: 10px;
     }
 
@@ -209,13 +227,14 @@ footer {
     }
 
     #footerImg {
-        width: 18%;
+        width: 181px;
         display: block;
         margin: 0 auto;
-        padding-top: 0;
-        padding-bottom: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
         float: left;
-        margin-left: 150px;
+        margin-left: 123px;
+        margin-top: -11px;
     }
 
     #footerContent {
@@ -225,15 +244,19 @@ footer {
 
     .footerTxt {
         float: left;
-        font-size: 14px;
+        font-size: 17px;
     }
 
+    #footerBtn {
+        height: 53px;
+        width: 245px;
+    }
 
     #infoDiv {
         display: inline-block;
         width: 50%;
-        margin-left: 28px;
-        line-height: 15px;
+        margin-left: 16px;
+        line-height: 18px;
         margin-top: 11px;
     }
 }
