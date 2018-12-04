@@ -77,7 +77,9 @@ li {
 }
 
 hr {
-    border-top: 1px solid #DDDDDD
+    border-top: 1px solid #DDDDDD;
+    width: 95%;
+    margin-left: 0px;
 }
 .card {
     width: 90%;
@@ -299,6 +301,7 @@ a {
         left: 100px;
         top: 10px;
     }
+    
     .dropdown-menu>li>a {
         color: white;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -310,6 +313,7 @@ a {
         padding-bottom: 20px;
     
     }
+  
     .nav>li>a:hover {
        color: green;
        padding-bottom: 28px;
