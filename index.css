@@ -86,19 +86,19 @@ hr {
 }
 
 .cardImages {
-    width: 335px;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
 
 .card-body {
-    width: 335px;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
 
 .card-text {
-    width: 335px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     vertical-align: middle;
@@ -189,7 +189,7 @@ a {
     .navbar-nav {
         float: left;
         margin: 0;
-        font-size: 15px;
+        font-size: 100%;
     }
 
     #jumboImg {      
@@ -241,7 +241,7 @@ a {
     .card-text {
         width: 210px;
         height: 62px;
-        font-size: 17px;
+        font-size: 116%;
     }
 
     #footerImg {
@@ -262,7 +262,7 @@ a {
 
     .footerTxt {
         float: left;
-        font-size: 17px;
+        font-size: 115%;
     }
 
     #footerBtn {
@@ -292,14 +292,22 @@ a {
         position: relative;
         top: 23px;
     }
+    
     #navbarLogo {
         position: absolute;
         width: 178px;
         left: 100px;
         top: 10px;
     }
+    .dropdown-menu {
+        opacity: .9;
+        background-color:black;
+    }
+    .navbar-nav > li > a:hover {
+        color: green;
+    }
     #jumboImg {
-        height: 228px;
+        height: 275px;
     }
 
     #linkList {
@@ -316,7 +324,7 @@ a {
     a {
         font-family: 'Montserrat', sans-serif;
         font-weight: normal;
-        font-size: 0.9em;
+        font-size: 90%;
         margin-left: 10px;
     }
     #contentDiv {
@@ -349,11 +357,4 @@ a {
         
     }
 
-    /* .image1 {
-        margin-left: 84px;
-    }
-    
-    .image3 {
-        margin-left: -15px;
-    } */
 }
