@@ -299,14 +299,21 @@ a {
         left: 100px;
         top: 10px;
     }
+    .dropdown-menu>li>a {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 110%
+    }
     .dropdown-menu {
         opacity: .9;
-        background-color:black;
+        background-color: #636669;
+        padding-bottom: 20px;
+    
     }
     .nav>li>a:hover {
        color: green;
-       padding-bottom: 30px;
-       border-bottom: 4px #82B864 solid; 
+       padding-bottom: 28px;
+       border-bottom: 6px #82B864 solid; 
        
     }
     .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
