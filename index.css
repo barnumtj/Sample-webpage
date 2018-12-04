@@ -378,8 +378,42 @@ a {
         height: 315px;
     }
 
+    footer {
+        height: 157px;
+        width: 100%
+    }
+
+    
+    #infoDiv {
+        margin-top: -2px;
+        margin-left: 20px;
+        width: 30%;
+    }
+
+    #footerContent {
+        margin-top: 25px;
+    }
+
+    #footerImg {
+        content:url("./images/logowhite.png");
+        height: 83px;
+        width: 238px;
+        margin-top: -11px;
+        margin-left: 88px;
+    }
+
+    .footerTxt {
+        float: left;
+    }
+
     #footerBtn {
-        
+        position: relative;
+        bottom: 75px;
+        left: 160px;
+    }
+
+    #footerDiv {
+        margin-top: -57px;
     }
 
 }
