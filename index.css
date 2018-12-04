@@ -303,8 +303,18 @@ a {
         opacity: .9;
         background-color:black;
     }
-    .navbar-nav > li > a:hover {
-        color: green;
+    .nav>li>a:hover {
+       color: green;
+       padding-bottom: 30px;
+       border-bottom: 4px #82B864 solid; 
+       
+    }
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: #eee;
+        border-color: #82B864;
+    }
+    .navbar-nav>li>.dropdown-menu {
+        margin-left: 8px;
     }
     #jumboImg {
         height: 275px;
