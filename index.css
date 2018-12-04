@@ -263,7 +263,6 @@ a {
     }
 
     .footerTxt {
-        float: left;
         font-size: 115%;
     }
 
@@ -311,7 +310,12 @@ a {
         opacity: .9;
         background-color: #636669;
         padding-bottom: 20px;
+         
     
+    }
+
+    .navbar-nav>li>.dropdown-menu:hover, .navbar-nav>li>.dropdown-menu:focus {
+        margin-top: 20px;
     }
   
     .nav>li>a:hover {
