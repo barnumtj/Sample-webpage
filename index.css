@@ -222,6 +222,16 @@ a {
         letter-spacing: 1.3px;
     }
 
+    .navbar-nav>li>.dropdown-menu {
+        background-color: #4e5153;
+        opacity: .9
+        
+    }
+    
+    .dropdown-menu>li>a {
+        color: white;   
+    }
+
     #jumboImg {      
         content:url("./images/jumboTablet.png");
         height: 200px;
@@ -342,7 +352,7 @@ a {
     }
     .dropdown-menu {
         opacity: .9;
-        background-color: #636669;
+        background-color: #4e5153;
         padding-bottom: 20px;
          
     
@@ -369,9 +379,7 @@ a {
     .navbar-nav>li>.dropdown-menu {
         margin-left: 8px;
     }
-    .navbar-nav>li>.dropdown-menu, .navbar-nav>li>.dropdown-menu {
-        
-    }
+   
     #jumboImg {
         height: 275px;
     }
@@ -409,7 +417,7 @@ a {
     .card-body {
         width: 300px;
         position: relative;
-        top: -62px;
+        top: -82px;
         opacity: .9
     }
 
