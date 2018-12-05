@@ -5,6 +5,13 @@
     border-top: 9px solid;
     border-top-color: #2A80BC;
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-toggle .icon-bar {
+    height: 3px;
+}
 
 .navbar-collapse {
     background-color: white;
@@ -21,6 +28,7 @@
 .navbar-default .navbar-toggle:hover {
     background-color: white;
 }
+
 #navbarLogo {
     height: 50px;
     width: 52%;
@@ -48,17 +56,22 @@ h1 {
 }
 
 article {
-    margin: 2px 5px 2px 2rem;
+    margin: 2px 5px 2px 20px;
     line-height: 2;
     font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+#articleLink {
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration: underline;
 }
 
 h2 {
     margin: 3rem 5px 3rem 2rem;
-    color: #4585A9;
-    font-size: 200%;
+    color: #3d83c0;
+    font-size: 174%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
+    letter-spacing: 2px;
     
 
 }
@@ -69,6 +82,7 @@ h2 {
     padding-top: 3rem;
     padding-bottom: 3rem;
     background-color: 	#F1F1F1;
+    letter-spacing: .4px;
     
 }
 
@@ -107,7 +121,8 @@ hr {
     line-height: 65px;
     color: white;
     height: 65px;
-    font-size: 158%;
+    letter-spacing: .4px;
+    font-size: 113%;
 }
 footer {
     background-color: 	#343530;
@@ -120,13 +135,17 @@ footer {
     display: block;
     margin: 0 auto;
     padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .footerTxt {
     color: white;
     text-align: center;
     font-size: 99%;
+}
+#emailLink {
+    text-decoration: underline;
+    color: white;
 }
 
 #footerBtn {
@@ -136,9 +155,13 @@ footer {
     margin: 0 auto;
     border: 0px;
     height: 60px;
-    width: 82%;
-    font-size: 99%;
+    width: 69%;
+    font-size: 120%;
     letter-spacing: 2px;
+}
+
+#infoDiv {
+    padding-bottom: 10px;
 }
 
 #buttonDiv {
@@ -173,7 +196,7 @@ a {
 
     a {
         font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
+        font-weight: 400;
     }
 
     #navbarLogo {
@@ -193,10 +216,15 @@ a {
         margin: 0;
         font-size: 100%;
     }
+    .navbar-default .navbar-nav>li>a {
+        color: #777;
+        font-weight: bold;
+        letter-spacing: 1.3px;
+    }
 
     #jumboImg {      
         content:url("./images/jumboTablet.png");
-        height: 168px;
+        height: 200px;
         width: 100%;
       } 
     #articleDiv {
@@ -210,7 +238,7 @@ a {
     }
     h2 {
         margin: 2rem 5px 2rem 2rem;
-        color: #447DA5;
+        color: #3d83c0;
     }
     #linkList {
         width: 30%;
@@ -241,9 +269,12 @@ a {
         width: 221px;
     }
     .card-text {
-        width: 210px;
+        width: 188px;
         height: 62px;
         font-size: 116%;
+        line-height: 1.2;
+        padding-top: 12px;
+        font-weight: bold;
     }
 
     #footerImg {
@@ -317,9 +348,13 @@ a {
     .navbar-nav>li>.dropdown-menu:hover, .navbar-nav>li>.dropdown-menu:focus {
         margin-top: 20px;
     }
+
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #82B864
+    }
   
     .nav>li>a:hover {
-       color: green;
+       color: #82B864;
        padding-bottom: 28px;
        border-bottom: 6px #82B864 solid; 
        
@@ -330,6 +365,9 @@ a {
     }
     .navbar-nav>li>.dropdown-menu {
         margin-left: 8px;
+    }
+    .navbar-nav>li>.dropdown-menu, .navbar-nav>li>.dropdown-menu {
+        
     }
     #jumboImg {
         height: 275px;
@@ -372,6 +410,12 @@ a {
         opacity: .9
     }
 
+    .card-text {
+        line-height: 64px;
+        width: 100%;
+        padding: 0px;
+    }
+
     #cardDiv {
         width: 1000px;
         margin: 0 auto;
@@ -408,7 +452,7 @@ a {
     #footerBtn {
         position: relative;
         bottom: 75px;
-        left: 160px;
+        left: 405px;
     }
 
     #footerDiv {
