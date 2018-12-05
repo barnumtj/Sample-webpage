@@ -295,11 +295,14 @@ a {
 
     .footerTxt {
         font-size: 115%;
+        float: left;
+        clear: left;
     }
 
     #footerBtn {
         height: 53px;
         width: 245px;
+        font-size: 102%;
     }
 
     #infoDiv {
