@@ -165,7 +165,7 @@ footer {
 }
 
 #buttonDiv {
-    padding-bottom: 40px;
+    padding-bottom: 29px;
     padding-top: 12px;
 }
 
@@ -348,18 +348,36 @@ a {
     .dropdown-menu>li>a {
         color: white;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 110%
+        font-size: 97%;
+        padding: 7px 8px;
     }
     .dropdown-menu {
         opacity: .9;
         background-color: #4e5153;
         padding-bottom: 20px;
-         
-    
+        position: absolute;
+        top: 66px;
+       
     }
 
-    .navbar-nav>li>.dropdown-menu:hover, .navbar-nav>li>.dropdown-menu:focus {
-        margin-top: 20px;
+    .dropdown-menu:hover {
+        opacity: .9;
+        background-color: #4e5153;
+        padding-bottom: 20px;
+        position: absolute;
+        top: 66px;
+        
+    }
+
+    /* .navbar-nav>li>.dropdown-menu:hover, .navbar-nav>li>.dropdown-menu:focus {
+        opacity: .9;
+        background-color: #4e5153;
+        padding-bottom: 20px;
+        position: absolute;
+        top: 66px;
+    } */
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        background-color: white;
     }
 
     .navbar-default .navbar-nav>li>a:hover {
@@ -378,6 +396,8 @@ a {
     }
     .navbar-nav>li>.dropdown-menu {
         margin-left: 8px;
+        padding-right: 24px;
+        
     }
    
     #jumboImg {
@@ -462,7 +482,7 @@ a {
 
     #footerBtn {
         position: relative;
-        bottom: 75px;
+        bottom: 88px;
         left: 405px;
     }
 
@@ -470,4 +490,5 @@ a {
         margin-top: -57px;
     }
 
+    
 }
