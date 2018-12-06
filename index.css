@@ -224,9 +224,14 @@ a {
 
     .navbar-nav>li>.dropdown-menu {
         background-color: #4e5153;
-        opacity: .9
-        
+        opacity: .9 
     }
+    .nav>li>a:hover {
+        color: #82B864;
+        padding-bottom: 12px;
+        border-bottom: 3px #82B864 solid; 
+        
+     }
     
     .dropdown-menu>li>a {
         color: white;   
@@ -369,13 +374,6 @@ a {
         
     }
 
-    /* .navbar-nav>li>.dropdown-menu:hover, .navbar-nav>li>.dropdown-menu:focus {
-        opacity: .9;
-        background-color: #4e5153;
-        padding-bottom: 20px;
-        position: absolute;
-        top: 66px;
-    } */
     .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
         background-color: white;
     }
@@ -383,7 +381,13 @@ a {
     .navbar-default .navbar-nav>li>a:hover {
         color: #82B864
     }
-  
+    
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+        color: #262626;
+        text-decoration: none;
+        background-color: #f5f5f5;
+        width: 100%;
+    }
     .nav>li>a:hover {
        color: #82B864;
        padding-bottom: 28px;
