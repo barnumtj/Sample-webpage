@@ -3,6 +3,7 @@
 </p>
 
 > Sample school website made using pure HTML and CSS.
+Made for imodules job.
 
 ### 🏠 [Homepage](https://barnumtj.github.io/Sample-webpage/)
 
